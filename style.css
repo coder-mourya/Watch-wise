@@ -1,0 +1,388 @@
+
+
+.nav-item{
+    padding-left: 20px;
+  }
+
+  .dropdown-item{
+    text-transform: capitalize;
+        }
+
+.gradient-container{
+   background:  linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  
+}
+
+.ft-card{
+  margin-bottom: 25px;
+}
+#Features{
+  padding-top
+  : 10%;
+}
+
+#Features h3{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#Features .card h5{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-col{
+  margin-top: 5% !important;
+}
+
+#Pricing{
+  padding-top: 10%;
+}
+
+#Pricing h3{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-border{
+  padding: 5px 0;
+  background:  linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+ border-radius: 10px;
+  
+}
+
+.custom-font1{
+  font-size: 50px;
+  color: white;
+}
+
+.custom-font2{
+  font-size: 21px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+
+  color: white;
+}
+@media screen and (max-width:600px) {
+
+.custom-font1{
+
+  margin-top: 20%;
+  font-size: 30px;
+  font-weight: bold;
+    
+  }
+
+  .home-img-nox{
+    margin-left: -12%;
+  }
+  
+}
+.cutstom-container{
+  padding-top: 11%;
+  padding-left: 10%;
+}
+
+.custom-container-3{
+  margin-top: 10%;
+ 
+}
+
+.custom-FAQ h3{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion-button{
+  background:  linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+color: white !important;
+}
+
+.custom-icon{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Blog .card a{
+  text-decoration: none;
+}
+
+#Blog h2{
+
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+#Products .custom-Products-color{
+
+  
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+
+.bottom-bg{
+
+  background: linear-gradient(to  right, rgb(255, 187, 0)3%, rgb(231, 34, 231), blue 134%) ;
+  color: white;
+  padding-bottom: 10px;
+
+  padding-top: 10px;
+}
+
+/* hover effect and style for product section*/
+
+#Products{
+  padding-top: 8% !important;
+}
+
+.column-content {
+
+  background-color: #f2f2f2;
+  padding: 20px 0 0;
+  margin-bottom: 20px ;
+ 
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.column-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to  right, rgb(255, 187, 0, 0.5)3%, rgb(231, 34, 231, 0.5), rgba(25, 25, 189, 0.5) 134%) ;
+
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.column-content:hover {
+  transform: scale(1.05);
+  
+  
+}
+
+.column-content:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.column-content img {
+  transition: transform 0.3s;
+}
+
+.column-content:hover img {
+  transform: scale(1.1);
+}
+
+#product1 .row{
+  padding: 37px;
+}
+
+#product1 .row h2{
+
+   
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+#product2 .row{
+  padding: 37px;
+
+}
+
+#product2 .row h2{
+
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.carousel-item img{
+  margin: auto;
+ width: 35%;
+
+  
+}
+
+.carousel-caption{
+  position: relative !important;
+  left: 0 !important;
+}
+
+.carousel-indicators{
+  
+  
+}
+
+/*Testimonials */
+
+#Testimonials{
+  padding: 5% 0 1% 0 ;
+
+}
+
+#Testimonials h2{
+  font-weight: bold;
+  color: white;
+}
+
+.custom-Testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 382px;
+  width: 44% !important;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.custom-Testimonials img{
+  border-radius: 50%;
+}
+
+.box {
+  display: none;
+  text-align: center;
+  animation: rotateBoxes 6s infinite;
+}
+
+@keyframes rotateBoxes {
+  0% {
+    opacity: 0;
+  }
+  16.66% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/*for contact*/
+
+.custom-contact{
+  background: linear-gradient(to  right, rgb(255, 187, 0, 0.5)3%, rgb(231, 34, 231, 0.5), rgba(25, 25, 189, 0.5) 134%) ;
+padding: 15%;
+padding-left: 3% !important;
+padding-right: 3% !important;
+border-radius: 50%;
+
+margin-left: 2%;
+
+
+
+}
+
+#Contact{
+  padding: 10%;
+}
+
+#Contact .color{
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-contact1{
+  margin-left: -2% !important;
+}
+
+/* footer */
+
+
+footer {
+  background: linear-gradient(to  right, rgb(255, 187, 0, 0.5)3%, rgb(231, 34, 231, 0.5), rgba(25, 25, 189, 0.5) 134%) ;
+  padding: 20px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+footer p,
+footer ul {
+  margin-bottom: 5px;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+footer ul{
+  padding-left: 0 !important;
+
+  padding-top: 2% !important;
+
+}
+
+.social-media-icons li{
+  display: inline;
+
+  
+  
+}
+
+footer ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+.social-media-icons i {
+  margin-right: 10px;
+  font-size: 31px;
+  background-image: linear-gradient(to  right, rgb(255, 187, 0)32%, rgb(231, 34, 231), blue 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 0.3s;
+}
+
+.social-media-icons i:hover {
+  color: white;
+}
+
+/*Animation */
+
+
+
+
+.animated-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.animated-element.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
